@@ -80,9 +80,10 @@ const onClickVariant = (index) => {
       </Head>
       <div>
         <main>
-           <section>
+        <section>
       <div className="container">
-        <div className="App">
+
+      <div className="App">
       {
         step !== questions.length ? (
         <Game step={step} question={question} onClickVariant={onClickVariant}/>
@@ -91,8 +92,10 @@ const onClickVariant = (index) => {
         )
       }
     </div>
-      </div>
+    
+    </div>
     </section>
+
         </main>
       </div>
     </>
